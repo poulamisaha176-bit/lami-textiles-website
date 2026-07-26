@@ -44,7 +44,21 @@ the live site within a minute or so.
 
 Every image lives in `assets/` and is referenced with a lowercase, hyphenated
 filename. Avoid spaces, capitals and parentheses in filenames — they have to be
-URL-encoded and break easily across servers.
+URL-encoded and break easily across servers. GitHub Pages is case-sensitive, so
+`flatlay.png` and `Flatlay.png` are different files.
+
+The pages expect these 22 files:
+
+```
+collab.png              hero-paper.png          presenting.jpeg
+composites-b.png        leather-a.png           process-collage.png
+composites-c.png        leather-b.png           raw-scales.png
+composites.png          leather-face.png        sequin-macro.png
+fish-market.png         paper-a.png             sequins-drape.png
+flatlay.png             paper-b.png             sequins-held.png
+portrait.jpeg           paper-sheet.png         sequins-worn.png
+studio-screenprinting.jpeg
+```
 
 Export images at roughly 2000px on the long edge and compress them before
 committing. The originals are large, and page weight is what visitors feel most

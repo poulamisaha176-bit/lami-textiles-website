@@ -1,0 +1,8 @@
+Image files for the site live in this folder.
+
+Filenames are lowercase and hyphenated, and are referenced exactly as-is from
+the HTML — GitHub Pages is case-sensitive, so flatlay.png and Flatlay.png are
+different files. See README.md for the full list of images the pages expect.
+
+This file only exists to keep the folder present in git, which does not track
+empty directories. It can be deleted once the images are here.
