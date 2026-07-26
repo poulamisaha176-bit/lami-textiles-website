@@ -40,6 +40,15 @@ The site deploys from the default branch via GitHub Pages
 (**Settings → Pages → Deploy from a branch**). Pushing to that branch updates
 the live site within a minute or so.
 
+It is served at https://lami-textiles.com. The `CNAME` file at the repository
+root is what tells GitHub Pages which domain to answer on — deleting it drops
+the site back to the github.io address, so leave it in place.
+
+DNS is managed at Cloudflare: four `A` records on the apex pointing at GitHub's
+Pages addresses, and a `CNAME` on `www` pointing at
+`poulamisaha176-bit.github.io`. These records must stay **DNS only** (grey
+cloud) rather than proxied, or GitHub cannot renew the HTTPS certificate.
+
 ## Images
 
 Every image lives in `assets/` and is referenced with a lowercase, hyphenated
