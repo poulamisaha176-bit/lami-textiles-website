@@ -1,6 +1,6 @@
-# LAMI Textiles
+# Lami Textiles
 
-Portfolio site for LAMI Textiles — biodegradable materials made from fish-scale waste.
+Portfolio site for Lami Textiles — biodegradable materials made from fish-scale waste.
 
 ## Structure
 
