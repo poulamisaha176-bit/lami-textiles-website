@@ -21,12 +21,13 @@
      Without JS that would leave the page blank, so show everything. */
   [data-reveal] { opacity:1 !important; transform:none !important; }
 </style></noscript>
+<link rel="stylesheet" href="site.css">
 </head>
 <body>
 <div style="background:#faf8f3; color:#1c1a17;">
-  <div style="position:sticky; top:0; z-index:20; display:flex; justify-content:space-between; align-items:center; padding:20px 40px; background:rgba(250,248,243,.92); backdrop-filter:blur(8px); border-bottom:1px solid #d8d2c6;">
+  <div data-nav <div class="m1" class="m1" style="position:sticky; top:0; z-index:20; display:flex; justify-content:space-between; align-items:center; padding:20px 40px; background:rgba(250,248,243,.92); backdrop-filter:blur(8px); border-bottom:1px solid #d8d2c6;">
     <a href="index.html" style="font:500 14px/1.4 'Archivo'; letter-spacing:.24em; color:#1c1a17;">LAMI TEXTILES</a>
-    <div style="display:flex; gap:36px; font:400 14px 'Archivo'; letter-spacing:.06em; color:#1c1a17;">
+    <div data-navlinks class="m2" class="m2" style="display:flex; gap:36px; font:400 14px 'Archivo'; letter-spacing:.06em; color:#1c1a17;">
       <a href="about.html">About</a>
       <a href="biomaterials.html">Biomaterials</a>
       <a href="biomaterials.html#library">Material library</a>
@@ -36,54 +37,54 @@
   </div>
 
   <!-- portrait + bio -->
-    <div style="display:grid; grid-template-columns:1fr 1.1fr; border-bottom:1px solid #d8d2c6;">
+    <div class="m3" class="m3" style="display:grid; grid-template-columns:1fr 1.1fr; border-bottom:1px solid #d8d2c6;">
       <div style="overflow:hidden; background:#dcd6cb; min-height:82vh;">
         <img src="assets/portrait.jpeg" style="width:100%; height:100%; object-fit:cover; display:block;" alt="Portrait of Poulami Saha">
       </div>
-      <div style="padding:72px 48px; display:flex; flex-direction:column; gap:28px; justify-content:center;">
+      <div class="m4" class="m4" style="padding:72px 48px; display:flex; flex-direction:column; gap:28px; justify-content:center;">
         <div data-reveal style="font:400 12px 'Archivo'; letter-spacing:.18em; color:#3e6f6a;">ABOUT</div>
-        <div data-reveal style="font:300 40px/1.25 'Cormorant Garamond'; color:#1c1a17; text-wrap:pretty;">Poulami is a textile and material designer whose practice moves between craft, biodesign and cultural storytelling.</div>
+        <div data-reveal class="m5" class="m5" style="font:300 40px/1.25 'Cormorant Garamond'; color:#1c1a17; text-wrap:pretty;">Poulami is a textile and material designer whose practice moves between craft, biodesign and cultural storytelling.</div>
         <div data-reveal style="font:400 15px/1.85 'Archivo'; color:#55504a; text-wrap:pretty;">Coming from a background in luxury fashion and couture, her work has gradually shifted towards understanding how materials perform, behave and carry meaning. She is drawn to what is routinely discarded — organic waste, everyday by-products, materials that hold traces of labour, culture and memory. Working with biomatter and natural processes, she develops material systems that sit between craft and experimentation, shaped by her upbringing in Bengal.</div>
       </div>
     </div>
 
     <!-- statement -->
-    <div data-reveal style="padding:88px 48px; border-bottom:1px solid #d8d2c6;">
+    <div data-reveal class="m6" class="m6" style="padding:88px 48px; border-bottom:1px solid #d8d2c6;">
       <div style="font:400 12px 'Archivo'; letter-spacing:.18em; color:#3e6f6a; margin-bottom:24px;">ARTIST STATEMENT</div>
-      <div style="font:300 32px/1.5 'Cormorant Garamond'; color:#1c1a17; max-width:760px; text-wrap:pretty;">“My practice explores how materials from everyday life can be reused and reworked through processes of care… This practice is slow, hands-on, and grounded in curiosity about what materials <span style="font-style:italic; color:#3e6f6a;">already know.</span>”</div>
+      <div class="m7" class="m7" style="font:300 32px/1.5 'Cormorant Garamond'; color:#1c1a17; max-width:760px; text-wrap:pretty;">“My practice explores how materials from everyday life can be reused and reworked through processes of care… This practice is slow, hands-on, and grounded in curiosity about what materials <span style="font-style:italic; color:#3e6f6a;">already know.</span>”</div>
     </div>
 
     <!-- process photos -->
-    <div style="display:grid; grid-template-columns:1fr 1fr; gap:28px; padding:64px 48px; align-items:end; border-bottom:1px solid #d8d2c6;">
-      <img data-reveal src="assets/studio-screenprinting.jpeg" style="width:100%; height:520px; object-fit:cover;" alt="Screen printing in the studio">
-      <img data-reveal src="assets/presenting.jpeg" style="width:100%; height:400px; object-fit:cover;" alt="Presenting the work">
+    <div class="m8" class="m8" style="display:grid; grid-template-columns:1fr 1fr; gap:28px; padding:64px 48px; align-items:end; border-bottom:1px solid #d8d2c6;">
+      <img data-reveal src="assets/studio-screenprinting.jpeg" class="m9" class="m9" style="width:100%; height:520px; object-fit:cover;" alt="Screen printing in the studio">
+      <img data-reveal src="assets/presenting.jpeg" class="m10" class="m10" style="width:100%; height:400px; object-fit:cover;" alt="Presenting the work">
     </div>
 
     <!-- CV -->
-    <div style="padding:88px 48px 96px;">
+    <div class="m11" class="m11" style="padding:88px 48px 96px;">
       <div data-reveal style="font:400 12px 'Archivo'; letter-spacing:.18em; color:#3e6f6a; margin-bottom:32px;">SELECTED CV</div>
       <div style="display:flex; flex-direction:column; max-width:760px;">
-        <div data-reveal style="display:grid; grid-template-columns:120px 1fr; gap:24px; padding:20px 0; border-top:1px solid #d8d2c6; font:400 15px/1.6 'Archivo'; color:#1c1a17;">
+        <div data-reveal class="m3" class="m3" style="display:grid; grid-template-columns:120px 1fr; gap:24px; padding:20px 0; border-top:1px solid #d8d2c6; font:400 15px/1.6 'Archivo'; color:#1c1a17;">
           <span style="color:#55504a;">2024–now</span><span>Fragments from a Shrinking Shore — ongoing material research <span style="color:#55504a;">(exhibitions, placeholder)</span></span>
         </div>
-        <div data-reveal style="display:grid; grid-template-columns:120px 1fr; gap:24px; padding:20px 0; border-top:1px solid #d8d2c6; font:400 15px/1.6 'Archivo'; color:#1c1a17;">
+        <div data-reveal class="m3" class="m3" style="display:grid; grid-template-columns:120px 1fr; gap:24px; padding:20px 0; border-top:1px solid #d8d2c6; font:400 15px/1.6 'Archivo'; color:#1c1a17;">
           <span style="color:#55504a;">2025</span><span><span style="font-style:italic;">Layers of Passage</span> — blossomyards × reedsmith, with Vincy Senthil Kumar</span>
         </div>
-        <div data-reveal style="display:grid; grid-template-columns:120px 1fr; gap:24px; padding:20px 0; border-top:1px solid #d8d2c6; font:400 15px/1.6 'Archivo'; color:#1c1a17;">
+        <div data-reveal class="m3" class="m3" style="display:grid; grid-template-columns:120px 1fr; gap:24px; padding:20px 0; border-top:1px solid #d8d2c6; font:400 15px/1.6 'Archivo'; color:#1c1a17;">
           <span style="color:#55504a;">2024–26</span><span>MA Textiles <span style="color:#55504a;">(institution placeholder)</span></span>
         </div>
-        <div data-reveal style="display:grid; grid-template-columns:120px 1fr; gap:24px; padding:20px 0; border-top:1px solid #d8d2c6; font:400 15px/1.6 'Archivo'; color:#1c1a17;">
+        <div data-reveal class="m3" class="m3" style="display:grid; grid-template-columns:120px 1fr; gap:24px; padding:20px 0; border-top:1px solid #d8d2c6; font:400 15px/1.6 'Archivo'; color:#1c1a17;">
           <span style="color:#55504a;">2020–24</span><span>Luxury fashion &amp; couture — embroidery and surface design <span style="color:#55504a;">(roles placeholder)</span></span>
         </div>
-        <div data-reveal style="display:grid; grid-template-columns:120px 1fr; gap:24px; padding:20px 0; border-top:1px solid #d8d2c6; border-bottom:1px solid #d8d2c6; font:400 15px/1.6 'Archivo'; color:#1c1a17;">
+        <div data-reveal class="m3" class="m3" style="display:grid; grid-template-columns:120px 1fr; gap:24px; padding:20px 0; border-top:1px solid #d8d2c6; border-bottom:1px solid #d8d2c6; font:400 15px/1.6 'Archivo'; color:#1c1a17;">
           <span style="color:#55504a;">Earlier</span><span>BDes Fashion Design <span style="color:#55504a;">(institution placeholder)</span></span>
         </div>
       </div>
       <a data-reveal href="index.html#contact" style="margin-top:40px; font:400 14px 'Archivo'; letter-spacing:.08em; color:#1c1a17; border-bottom:1px solid #1c1a17; display:inline-block; padding-bottom:3px;">Get in touch →</a>
     </div>
 
-  <div style="background:#1c1a17; color:#e8e4dd; padding:56px 48px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:24px; font:400 13px 'Archivo'; letter-spacing:.08em;">
-    <div style="display:flex; gap:28px; align-items:center; flex-wrap:wrap;">
+  <div class="m12" class="m12" style="background:#1c1a17; color:#e8e4dd; padding:56px 48px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:24px; font:400 13px 'Archivo'; letter-spacing:.08em;">
+    <div class="m13" class="m13" style="display:flex; gap:28px; align-items:center; flex-wrap:wrap;">
       <a href="mailto:lami.poulamisaha@gmail.com" style="display:inline-block; padding:12px 22px; border:1px solid #e8e4dd; letter-spacing:.1em;">EMAIL ME</a>
       <a href="https://www.instagram.com/lami.textiles/" target="_blank" rel="noopener" style="border-bottom:1px solid rgba(232,228,221,.4); padding-bottom:4px;">Instagram ↗</a>
       <a href="https://www.linkedin.com/in/poulamisaha1111/" target="_blank" rel="noopener" style="border-bottom:1px solid rgba(232,228,221,.4); padding-bottom:4px;">LinkedIn ↗</a>

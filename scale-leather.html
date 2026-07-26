@@ -21,12 +21,13 @@
      Without JS that would leave the page blank, so show everything. */
   [data-reveal] { opacity:1 !important; transform:none !important; }
 </style></noscript>
+<link rel="stylesheet" href="site.css">
 </head>
 <body>
 <div style="background:#faf8f3; color:#1c1a17;">
-  <div style="position:sticky; top:0; z-index:20; display:flex; justify-content:space-between; align-items:center; padding:20px 40px; background:rgba(250,248,243,.92); backdrop-filter:blur(8px); border-bottom:1px solid #d8d2c6;">
+  <div data-nav <div class="m1" class="m1" style="position:sticky; top:0; z-index:20; display:flex; justify-content:space-between; align-items:center; padding:20px 40px; background:rgba(250,248,243,.92); backdrop-filter:blur(8px); border-bottom:1px solid #d8d2c6;">
     <a href="index.html" style="font:500 14px/1.4 'Archivo'; letter-spacing:.24em; color:#1c1a17;">LAMI TEXTILES</a>
-    <div style="display:flex; gap:36px; font:400 14px 'Archivo'; letter-spacing:.06em; color:#1c1a17;">
+    <div data-navlinks class="m2" class="m2" style="display:flex; gap:36px; font:400 14px 'Archivo'; letter-spacing:.06em; color:#1c1a17;">
       <a href="about.html">About</a>
       <a href="biomaterials.html">Biomaterials</a>
       <a href="biomaterials.html#library">Material library</a>
@@ -40,37 +41,37 @@
       <div style="position:absolute; left:48px; bottom:40px; color:#faf8f3; font:400 13px 'Archivo'; letter-spacing:.14em;">MATERIAL 02 // SCALE_LEATHER</div>
     </div>
 
-    <div style="padding:88px 48px; display:grid; grid-template-columns:1.2fr 1fr; gap:56px; border-bottom:1px solid #d8d2c6;">
+    <div class="m14" class="m14" style="padding:88px 48px; display:grid; grid-template-columns:1.2fr 1fr; gap:56px; border-bottom:1px solid #d8d2c6;">
       <div data-reveal style="display:flex; flex-direction:column; gap:24px;">
-        <div style="font:300 36px/1.35 'Cormorant Garamond'; color:#1c1a17; text-wrap:pretty;">Created from fish-scale fibre and natural polymers — a flexible sheet with the tactility of leather, <span style="font-style:italic; color:#3e6f6a;">fully bio-based.</span></div>
+        <div class="m15" class="m15" style="font:300 36px/1.35 'Cormorant Garamond'; color:#1c1a17; text-wrap:pretty;">Created from fish-scale fibre and natural polymers — a flexible sheet with the tactility of leather, <span style="font-style:italic; color:#3e6f6a;">fully bio-based.</span></div>
         <div style="font:400 15px/1.85 'Archivo'; color:#55504a; max-width:560px; text-wrap:pretty;">Its surface is soft, durable and stitch-friendly, designed for accessories and interior applications where texture and strength meet low-impact materiality. Dyed with food and floral waste, each hide carries its own depth of colour, from warm amber to deep oxblood.</div>
       </div>
       <div data-reveal style="display:flex; flex-direction:column; font:400 14px 'Archivo'; color:#1c1a17;">
-        <div style="display:grid; grid-template-columns:130px 1fr; gap:16px; padding:14px 0; border-top:1px solid #d8d2c6;"><span style="color:#8a857c;">Base</span><span>Fish-scale fibre + natural polymers</span></div>
-        <div style="display:grid; grid-template-columns:130px 1fr; gap:16px; padding:14px 0; border-top:1px solid #d8d2c6;"><span style="color:#8a857c;">Colour</span><span>Natural food &amp; floral waste dyes</span></div>
-        <div style="display:grid; grid-template-columns:130px 1fr; gap:16px; padding:14px 0; border-top:1px solid #d8d2c6;"><span style="color:#8a857c;">Finish</span><span>Soft, matte, subtly grained</span></div>
-        <div style="display:grid; grid-template-columns:130px 1fr; gap:16px; padding:14px 0; border-top:1px solid #d8d2c6;"><span style="color:#8a857c;">End of life</span><span>Fully biodegradable</span></div>
-        <div style="display:grid; grid-template-columns:130px 1fr; gap:16px; padding:14px 0; border-top:1px solid #d8d2c6; border-bottom:1px solid #d8d2c6;"><span style="color:#8a857c;">Applications</span><span>Accessories, interiors, stitched goods</span></div>
+        <div class="m3" class="m3" style="display:grid; grid-template-columns:130px 1fr; gap:16px; padding:14px 0; border-top:1px solid #d8d2c6;"><span style="color:#8a857c;">Base</span><span>Fish-scale fibre + natural polymers</span></div>
+        <div class="m3" class="m3" style="display:grid; grid-template-columns:130px 1fr; gap:16px; padding:14px 0; border-top:1px solid #d8d2c6;"><span style="color:#8a857c;">Colour</span><span>Natural food &amp; floral waste dyes</span></div>
+        <div class="m3" class="m3" style="display:grid; grid-template-columns:130px 1fr; gap:16px; padding:14px 0; border-top:1px solid #d8d2c6;"><span style="color:#8a857c;">Finish</span><span>Soft, matte, subtly grained</span></div>
+        <div class="m3" class="m3" style="display:grid; grid-template-columns:130px 1fr; gap:16px; padding:14px 0; border-top:1px solid #d8d2c6;"><span style="color:#8a857c;">End of life</span><span>Fully biodegradable</span></div>
+        <div class="m3" class="m3" style="display:grid; grid-template-columns:130px 1fr; gap:16px; padding:14px 0; border-top:1px solid #d8d2c6; border-bottom:1px solid #d8d2c6;"><span style="color:#8a857c;">Applications</span><span>Accessories, interiors, stitched goods</span></div>
       </div>
     </div>
 
-    <div style="display:grid; grid-template-columns:1fr 1fr; gap:28px; padding:64px 48px; align-items:end;">
-      <img data-reveal src="assets/leather-a.png" style="width:100%; height:560px; object-fit:cover;" alt="Sheet of fish-scale leather held over raw scales">
-      <img data-reveal src="assets/leather-b.png" style="width:100%; height:440px; object-fit:cover;" alt="Amber fish-scale leather draped by hand">
+    <div class="m8" class="m8" style="display:grid; grid-template-columns:1fr 1fr; gap:28px; padding:64px 48px; align-items:end;">
+      <img data-reveal src="assets/leather-a.png" class="m16" class="m16" style="width:100%; height:560px; object-fit:cover;" alt="Sheet of fish-scale leather held over raw scales">
+      <img data-reveal src="assets/leather-b.png" class="m10" class="m10" style="width:100%; height:440px; object-fit:cover;" alt="Amber fish-scale leather draped by hand">
     </div>
 
-    <div style="display:grid; grid-template-columns:1fr 1.1fr; gap:40px; padding:0 48px 72px; align-items:center;">
-      <div data-reveal style="font:300 30px/1.4 'Cormorant Garamond'; color:#1c1a17; text-wrap:pretty;">Soft, durable and stitch-friendly — a hide grown from what the kitchen leaves behind.</div>
-      <img data-reveal src="assets/flatlay.png" style="width:100%; height:460px; object-fit:cover;" alt="Leathers within the wider material range">
+    <div class="m17" class="m17" style="display:grid; grid-template-columns:1fr 1.1fr; gap:40px; padding:0 48px 72px; align-items:center;">
+      <div data-reveal class="m7" class="m7" style="font:300 30px/1.4 'Cormorant Garamond'; color:#1c1a17; text-wrap:pretty;">Soft, durable and stitch-friendly — a hide grown from what the kitchen leaves behind.</div>
+      <img data-reveal src="assets/flatlay.png" class="m10" class="m10" style="width:100%; height:460px; object-fit:cover;" alt="Leathers within the wider material range">
     </div>
 
-    <div style="display:flex; justify-content:space-between; align-items:center; padding:40px 48px 96px; border-top:1px solid #d8d2c6; font:400 14px 'Archivo'; letter-spacing:.06em;">
+    <div class="m18" class="m18" style="display:flex; justify-content:space-between; align-items:center; padding:40px 48px 96px; border-top:1px solid #d8d2c6; font:400 14px 'Archivo'; letter-spacing:.06em;">
       <a href="biomaterials.html" style="color:#55504a;">← All materials</a>
       <a href="scale-composites.html" style="color:#1c1a17; border-bottom:1px solid #1c1a17; padding-bottom:3px;">Next: scale_composites →</a>
     </div>
 
-  <div style="background:#1c1a17; color:#e8e4dd; padding:56px 48px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:24px; font:400 13px 'Archivo'; letter-spacing:.08em;">
-    <div style="display:flex; gap:28px; align-items:center; flex-wrap:wrap;">
+  <div class="m12" class="m12" style="background:#1c1a17; color:#e8e4dd; padding:56px 48px; display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:24px; font:400 13px 'Archivo'; letter-spacing:.08em;">
+    <div class="m13" class="m13" style="display:flex; gap:28px; align-items:center; flex-wrap:wrap;">
       <a href="mailto:lami.poulamisaha@gmail.com" style="display:inline-block; padding:12px 22px; border:1px solid #e8e4dd; letter-spacing:.1em;">EMAIL ME</a>
       <a href="https://www.instagram.com/lami.textiles/" target="_blank" rel="noopener" style="border-bottom:1px solid rgba(232,228,221,.4); padding-bottom:4px;">Instagram ↗</a>
       <a href="https://www.linkedin.com/in/poulamisaha1111/" target="_blank" rel="noopener" style="border-bottom:1px solid rgba(232,228,221,.4); padding-bottom:4px;">LinkedIn ↗</a>

@@ -1,0 +1,101 @@
+/* Mobile layout for lami textiles.
+
+   The design tool emitted every rule inline, which outranks any stylesheet.
+   These overrides therefore carry !important, and hang off generated classes
+   rather than matching the inline text — site.js rewrites style attributes at
+   runtime, which would break substring matching.
+
+   Generated from the markup by scratchpad/gencss2.py.
+   Desktop is untouched: everything sits inside a max-width query. */
+
+/* No overflow-x:hidden here on purpose — it silently breaks position:sticky,
+   which the inner-page nav relies on. Overflow is fixed at the cause instead. */
+img { max-width:100%; }
+
+@media (max-width:820px) {
+
+  /* Nav: let the links wrap beneath the wordmark instead of overflowing. */
+  [data-nav] {
+    padding:14px 20px !important;
+    flex-wrap:wrap !important;
+    gap:10px 16px !important;
+  }
+  [data-navlinks] {
+    flex-wrap:wrap !important;
+    gap:12px 18px !important;
+    font-size:13px !important;
+    width:100% !important;
+  }
+
+  /* Home hero: four side-by-side panels become a vertical stack. */
+  [data-panels] { flex-direction:column !important; height:auto !important; }
+  [data-panels] > a {
+    min-height:68vh !important;
+    border-left:none !important;
+    border-top:1px solid rgba(250,248,243,.25) !important;
+  }
+  [data-panels] > a:first-child { border-top:none !important; }
+
+  /* Hero caption is inset to the desktop gutter; pull in and stack. */
+  [data-hero-cap] {
+    left:20px !important;
+    right:20px !important;
+    bottom:24px !important;
+    flex-direction:column !important;
+    align-items:flex-start !important;
+    gap:10px !important;
+  }
+
+  /* Generated per-element overrides. */
+  .m1 { padding:11px 20px !important; }
+  .m2 { gap:18px !important; }
+  .m3 { grid-template-columns:1fr !important; }
+  .m4 { padding:40px 20px !important; gap:14px !important; }
+  .m5 { font-size:25px !important; }
+  .m6 { padding:48px 20px !important; }
+  .m7 { font-size:20px !important; }
+  .m8 { padding:35px 20px !important; gap:14px !important; grid-template-columns:1fr !important; }
+  .m9 { height:260px !important; }
+  .m10 { height:240px !important; }
+  .m11 { padding:48px 20px 53px !important; }
+  .m12 { padding:31px 20px !important; }
+  .m13 { gap:14px !important; }
+  .m14 { padding:48px 20px !important; gap:28px !important; grid-template-columns:1fr !important; }
+  .m15 { font-size:22px !important; }
+  .m16 { height:280px !important; }
+  .m17 { gap:20px !important; grid-template-columns:1fr !important; }
+  .m18 { padding:22px 20px 53px !important; }
+  .m19 { height:64vh !important; }
+  .m20 { padding:53px 20px 48px !important; }
+  .m21 { font-size:33px !important; }
+  .m22 { height:310px !important; }
+  .m23 { padding:35px 20px !important; }
+  .m24 { padding:44px 20px !important; }
+  .m25 { min-height:280px !important; height:auto !important; }
+  .m26 { padding:53px 20px 20px !important; }
+  .m27 { font-size:30px !important; }
+  .m28 { padding:24px 20px 29px !important; }
+  .m29 { padding:40px 20px 18px !important; }
+  .m30 { padding:26px 20px 53px !important; gap:16px !important; }
+  .m31 { padding:53px 20px 35px !important; }
+  .m32 { min-height:320px !important; height:auto !important; }
+  .m33 { padding:40px 20px 13px !important; }
+  .m34 { height:300px !important; }
+  .m35 { padding:13px 20px 48px !important; gap:14px !important; grid-template-columns:1fr !important; }
+  .m36 { padding:44px 20px 53px !important; gap:14px !important; }
+  .m37 { padding:13px 20px !important; }
+  .m38 { padding:22px 20px 46px !important; }
+  .m39 { padding:77px 20px !important; gap:14px !important; }
+  .m40 { font-size:27px !important; }
+  .m41 { padding:53px 20px !important; gap:16px !important; }
+  .m42 { padding:40px 20px !important; }
+  .m43 { padding:48px 20px !important; gap:24px !important; }
+  .m44 { font-size:32px !important; }
+  .m45 { gap:24px !important; }
+}
+
+/* Narrow phones: rein the display type in a little further. */
+@media (max-width:420px) {
+  .mxl { font-size:27px !important; }
+  [data-panels] > a { min-height:58vh !important; }
+}
