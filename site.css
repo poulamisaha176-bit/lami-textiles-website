@@ -81,17 +81,18 @@ img { max-width:100%; }
   .m32 { min-height:320px !important; height:auto !important; }
   .m33 { padding:40px 20px 13px !important; }
   .m34 { gap:14px !important; grid-template-columns:1fr !important; }
-  .m35 { padding:40px 20px 48px !important; gap:14px !important; grid-template-columns:1fr !important; }
-  .m36 { padding:44px 20px 53px !important; gap:14px !important; }
-  .m37 { padding:13px 20px !important; }
-  .m38 { padding:22px 20px 46px !important; }
-  .m39 { padding:77px 20px !important; gap:14px !important; }
-  .m40 { font-size:27px !important; }
-  .m41 { padding:53px 20px !important; gap:16px !important; }
-  .m42 { padding:40px 20px !important; }
-  .m43 { padding:48px 20px !important; gap:24px !important; }
-  .m44 { font-size:32px !important; }
-  .m45 { gap:24px !important; }
+  .m35 { padding:40px 20px 15px !important; }
+  .m36 { padding:40px 20px 48px !important; gap:14px !important; grid-template-columns:1fr !important; }
+  .m37 { padding:44px 20px 53px !important; gap:14px !important; }
+  .m38 { padding:13px 20px !important; }
+  .m39 { padding:22px 20px 46px !important; }
+  .m40 { padding:77px 20px !important; gap:14px !important; }
+  .m41 { font-size:27px !important; }
+  .m42 { padding:53px 20px !important; gap:16px !important; }
+  .m43 { padding:40px 20px !important; }
+  .m44 { padding:48px 20px !important; gap:24px !important; }
+  .m45 { font-size:32px !important; }
+  .m46 { gap:24px !important; }
 }
 
 /* Narrow phones: rein the display type in a little further. */
