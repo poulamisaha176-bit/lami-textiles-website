@@ -56,16 +56,17 @@ filename. Avoid spaces, capitals and parentheses in filenames — they have to b
 URL-encoded and break easily across servers. GitHub Pages is case-sensitive, so
 `flatlay.png` and `Flatlay.png` are different files.
 
-The pages expect these 23 files:
+The pages expect these 24 files:
 
 ```
-composites-b.png              composites-c.png               composites.png
-fish-market.png               flatlay.png                    hero-paper.png
-layers-of-passage-detail.jpg  layers-of-passage-opening.jpg  layers-of-passage-wide.jpg
-leather-a.png                 leather-b.png                  leather-face.png
-paper-a.png                   paper-b.png                    paper-sheet.png
-portrait.jpeg                 presenting.jpeg                raw-scales.png
-sequin-macro.png              sequins-drape.png              sequins-held.png
+composites-b.png            composites-c.png              composites.png
+fibrelab-hero.jpg           fish-market.png                flatlay.png
+hero-paper.png               layers-of-passage-detail.jpg  layers-of-passage-opening.jpg
+layers-of-passage-wide.jpg  leather-a.png                  leather-b.png
+leather-face.png             paper-a.png                    paper-b.png
+paper-sheet.png              portrait.jpeg                  presenting.jpeg
+raw-scales.png               sequin-macro.png               sequins-drape.png
+sequins-held.png             sequins-worn.png               studio-screenprinting.jpeg
 sequins-worn.png               studio-screenprinting.jpeg
 ```
 

@@ -93,7 +93,10 @@ for path in HTML:
         total += 1
         return f'class="{" ".join(names)}" style="{style}"'
 
-    src = re.sub(r'style="([^"]*)"', repl, src)
+    # Consume any existing class="..." immediately before style="..." so
+    # re-running this script replaces the generated class rather than
+    # stacking a duplicate one in front of it each time.
+    src = re.sub(r'(?:class="[^"]*"\s+)?style="([^"]*)"', repl, src)
     path.write_text(src, encoding="utf-8")
 
 rules = "\n".join(f"  .{n} {{ {b.replace(';', ' !important; ')} !important; }}"

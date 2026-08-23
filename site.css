@@ -79,9 +79,9 @@ img { max-width:100%; }
   .m30 { padding:26px 20px 53px !important; gap:16px !important; }
   .m31 { padding:53px 20px 35px !important; }
   .m32 { min-height:320px !important; height:auto !important; }
-  .m33 { padding:40px 20px 13px !important; }
-  .m34 { height:300px !important; }
-  .m35 { padding:13px 20px 48px !important; gap:14px !important; grid-template-columns:1fr !important; }
+  .m33 { padding:40px 20px 48px !important; gap:14px !important; grid-template-columns:1fr !important; }
+  .m34 { padding:40px 20px 13px !important; }
+  .m35 { gap:14px !important; grid-template-columns:1fr !important; }
   .m36 { padding:44px 20px 53px !important; gap:14px !important; }
   .m37 { padding:13px 20px !important; }
   .m38 { padding:22px 20px 46px !important; }
